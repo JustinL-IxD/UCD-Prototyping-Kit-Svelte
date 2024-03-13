@@ -1,5 +1,4 @@
 <script lang="ts">
-    export let text: string;
 </script>
 
-<h1>{text}</h1>
+<h1><slot /></h1>

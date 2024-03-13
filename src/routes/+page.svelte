@@ -5,24 +5,21 @@
 	import Body from '$lib/components/Typography/Body.svelte';
 	import BulletList from '$lib/components/BulletList.svelte';
 	import Heading3 from '$lib/components/Typography/Heading3.svelte';
-
-	let bulletPoints = [
-		'your age',
-		'where you live',
-		'what benefits the person you care for gets',
-		'how many hours of care you provide',
-		'if anyone else cares for the same person',
-		'if you earn any money',
-		'if you’re studying at school or college'
-	];
+	import BulletPoint from '$lib/components/Typography/BulletPoint.svelte';
 </script>
 
-<BodySmall text="Carer Support Payment" />
-<Heading1 text="Who can apply" />
+<BodySmall>Carer Support Payment checker</BodySmall>
+<Heading1>Who can apply</Heading1>
 <Heading3 text="Contents" />
-<Body
-	text="You can check if you might be able to get Carer Support Payment by answering a few questions."
-/>
-<Body text="You’ll be asked:" />
-<BulletList {bulletPoints} />
+<Body>You can check if you might be able to get Carer Support Payment by answering a few questions.</Body>
+<Body>You’ll be asked:</Body>
+<BulletList>
+	<BulletPoint>your age</BulletPoint>
+	<BulletPoint>where you live</BulletPoint>
+	<BulletPoint>what benefits the person you care for gets</BulletPoint>
+	<BulletPoint>how many hours of care you provide</BulletPoint>
+	<BulletPoint>if anyone else cares for the same person</BulletPoint>
+	<BulletPoint>if you earn any money</BulletPoint>
+	<BulletPoint>if you’re studying at school or college</BulletPoint>
+</BulletList>
 <PrimaryButton text="Check if you're eligible" destination="do-you-live-in-scotland" />

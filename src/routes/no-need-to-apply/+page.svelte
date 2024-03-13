@@ -3,18 +3,22 @@
 	import Heading1 from '$lib/components/Typography/Heading1.svelte';
 	import Body from '$lib/components/Typography/Body.svelte';
 	import BulletList from '$lib/components/BulletList.svelte';
-
-	let bulletPoints = [
-		'you live in an EU country, Switzerland, Norway, Liechtenstein, Iceland or Gibraltar and have a genuine and sufficient link to Scotland',
-		'you or a family member are posted abroad as a member of the UK Armed Forces, or as a UK Civil Servant'
-	];
+	import Heading3 from '$lib/components/Typography/Heading3.svelte';
+	import BulletPoint from '$lib/components/Typography/BulletPoint.svelte';
 </script>
 
-<BodySmall text="Carer Support Payment" />
-<Heading1 text="You may not be able to get Carer Support Payment" />
-<Body text="You might be able to get Carer Support Payment if either:" />
-<BulletList {bulletPoints} />
-<Body
-	text="A genuine and sufficient link is where you do not live in Scotland, but have a link to Scotland. For example, you have spent a significant part of your life in Scotland."
-/>
-<Body text="Read about who can apply for Carer Support Payment" />
+<BodySmall>Carer Support Payment checker</BodySmall>
+<Heading1>You do not need to apply for Carer Support Payment</Heading1>
+<Body>Your Carer’s Allowance  from the Department for Work and Pensions (DWP) will move to Social Security Scotland if you:</Body>
+<BulletList>
+	<BulletPoint>get Carer's Allowance</BulletPoint>
+	<BulletPoint>live in Scotland</BulletPoint>
+</BulletList>
+<Body>If you get Carer’s Allowance, you do not need to apply for Carer Support Payment. DWP and Social Security Scotland will move your benefit for you.</Body>
+<Body>When you move from Carer’s Allowance to Carer Support Payment, you’ll keep getting the same amount.</Body>
+<Body>Before you move to Carer Support Payment, Social Security Scotland will write to tell you how your payments will work and when you’ll get them.</Body>
+<div class="mt-12">
+	<Heading3 text="Carer's Allowance Supplement" />
+	<Body>If you get Carer’s Allowance Supplement, you’ll still get payments twice a year.</Body>
+	<Body>Find out more about moving from Carer’s Allowance to Carer Support Payment</Body>
+</div>

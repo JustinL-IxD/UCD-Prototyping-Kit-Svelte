@@ -12,7 +12,7 @@
 	};
 </script>
 
-<BodySmall text="Carer Support Payment" />
-<Heading1 text="Where do you live?" />
+<BodySmall>Carer Support Payment checker</BodySmall>
+<Heading1>Where do you live?</Heading1>
 <Radios bind:selectedOption={selectedRadioOption} {radioOptions} />
 <PrimaryButton text="Next" destination={selectedRadioOption} />

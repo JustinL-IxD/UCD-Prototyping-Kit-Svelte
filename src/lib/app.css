@@ -28,7 +28,7 @@ p {
 	@apply md:text-SG-body-lg md:leading-SG-body-lg;
 }
 span {
-	@apply font-roboto text-SG-grey-primary w-3/4;;
+	@apply font-roboto text-SG-blue-primary underline;;
 	@apply text-SG-body-sm leading-SG-body-sm;
 	@apply md:text-SG-body-lg md:leading-SG-body-lg;
 }
