@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Typography */
+
+h1 {
+	@apply font-roboto font-bold mb-3 text-SG-grey-primary;
+	@apply w-3/4;
+	@apply text-SG-h1-sm leading-SG-h1-sm;
+	@apply md:text-SG-h1-lg md:leading-SG-h1-lg;
+}
+h2 {
+	@apply font-roboto font-bold text-SG-grey-primary;
+	@apply text-SG-h2-sm leading-SG-h2-sm;
+	@apply md:text-SG-h2-lg md:leading-SG-h2-lg;
+}
+h3 {
+	@apply font-roboto font-bold text-SG-grey-primary;
+	@apply text-SG-h3-sm leading-SG-h3-sm;
+	@apply md:text-SG-h3-lg md:leading-SG-h3-lg;
+}
+p {
+	@apply font-roboto text-SG-grey-primary w-3/4;
+	@apply text-SG-body-sm leading-SG-body-sm;
+	@apply md:text-SG-body-lg md:leading-SG-body-lg;
+}
+span {
+	@apply font-roboto text-SG-grey-primary w-3/4;;
+	@apply text-SG-body-sm leading-SG-body-sm;
+	@apply md:text-SG-body-lg md:leading-SG-body-lg;
+}
+label {
+	@apply font-roboto text-SG-grey-primary w-3/4;;
+	@apply text-SG-body-sm leading-SG-body-sm;
+	@apply md:text-SG-body-lg md:leading-SG-body-lg;
+}
+li {
+	@apply font-roboto text-SG-grey-primary w-3/4;;
+	@apply text-SG-body-sm leading-SG-body-sm;
+	@apply md:text-SG-body-lg md:leading-SG-body-lg;
+}
+a {
+	@apply font-roboto text-SG-blue-primary w-3/4;;
+	@apply text-SG-body-sm leading-SG-body-sm;
+	@apply md:text-SG-body-lg md:leading-SG-body-lg;
+}

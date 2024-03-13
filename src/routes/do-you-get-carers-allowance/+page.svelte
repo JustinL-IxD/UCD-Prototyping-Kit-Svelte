@@ -1,0 +1,19 @@
+<script lang="ts">
+	import BodySmall from '$lib/components/Typography/BodySmall.svelte';
+	import Heading1 from '$lib/components/Typography/Heading1.svelte';
+	import Radios from '$lib/components/Radios.svelte';
+	import Body from '$lib/components/Typography/Body.svelte';
+
+	let selectedRadioOption: string = 'nothing';
+	let radioOptions: Record<string, string> = {
+		Yes: 'no-need-to-apply',
+		No: 'eligibility/residency'
+	};
+</script>
+
+<BodySmall text="Do you get Carer’s Allowance?" />
+<Heading1 text="Do you get Carer's Support Payment?" />
+<Body
+	text="This includes if you've been awarded Carer's Allowance but you do not get any payments. For example, because you already get another benefit like State Pension. This is sometimes called underlying entitlement. Find out more about Carer's Allowance if you're on State Pension."
+/>
+<Radios bind:selectedOption={selectedRadioOption} {radioOptions} />
