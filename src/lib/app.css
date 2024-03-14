@@ -8,9 +8,8 @@
 
 h1 {
 	@apply font-roboto font-bold mb-3 text-SG-grey-primary;
-	@apply w-3/4;
 	@apply text-SG-h1-sm leading-SG-h1-sm;
-	@apply md:text-SG-h1-lg md:leading-SG-h1-lg;
+	@apply md:text-SG-h1-lg md:leading-SG-h1-lg md:w-3/4;
 }
 h2 {
 	@apply font-roboto font-bold text-SG-grey-primary;
@@ -23,9 +22,9 @@ h3 {
 	@apply md:text-SG-h3-lg md:leading-SG-h3-lg;
 }
 p {
-	@apply font-roboto text-SG-grey-primary w-3/4;
+	@apply font-roboto text-SG-grey-primary;
 	@apply text-SG-body-sm leading-SG-body-sm;
-	@apply md:text-SG-body-lg md:leading-SG-body-lg;
+	@apply md:text-SG-body-lg md:leading-SG-body-lg md:w-3/4;
 }
 span {
 	@apply font-roboto text-SG-grey-primary;
@@ -33,17 +32,17 @@ span {
 	@apply md:text-SG-body-lg md:leading-SG-body-lg;
 }
 label {
-	@apply font-roboto text-SG-grey-primary w-3/4;;
+	@apply font-roboto text-SG-grey-primary ;
 	@apply text-SG-body-sm leading-SG-body-sm;
-	@apply md:text-SG-body-lg md:leading-SG-body-lg;
+	@apply md:text-SG-body-lg md:leading-SG-body-lg md:w-3/4;
 }
 li {
-	@apply font-roboto text-SG-grey-primary w-3/4;;
+	@apply font-roboto text-SG-grey-primary ;
 	@apply text-SG-body-sm leading-SG-body-sm;
-	@apply md:text-SG-body-lg md:leading-SG-body-lg;
+	@apply md:text-SG-body-lg md:leading-SG-body-lg md:w-3/4;
 }
 a {
-	@apply font-roboto text-SG-blue-primary w-3/4;;
+	@apply font-roboto text-SG-blue-primary ;
 	@apply text-SG-body-sm leading-SG-body-sm;
-	@apply md:text-SG-body-lg md:leading-SG-body-lg;
+	@apply md:text-SG-body-lg md:leading-SG-body-lg md:w-3/4;
 }
