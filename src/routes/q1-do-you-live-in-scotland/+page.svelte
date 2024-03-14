@@ -4,12 +4,14 @@
 	import Heading1 from '$lib/components/Typography/Heading1.svelte';
 	import Radios from '$lib/components/Radios.svelte';
 	import PrimaryButton from '$lib/components/Buttons/PrimaryButton.svelte';
+	import DateOfBirth from '$lib/components/DateOfBirth.svelte';
 
 	let selectedRadioOption: string = 'nothing';
 	let radioOptions: Record<string, string> = {
 		Yes: 'q2-do-you-get-carers-allowance',
-		No: 'q1a-residency'
-	};
+		No: 'q1a-residency',
+		"Not sure": 'q7-anyone-else',
+	};	
 </script>
 
 
