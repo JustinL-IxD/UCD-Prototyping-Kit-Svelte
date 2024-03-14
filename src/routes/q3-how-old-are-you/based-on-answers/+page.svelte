@@ -1,9 +1,7 @@
 <script lang="ts">
-	import BodySmall from '$lib/components/Typography/BodySmall.svelte';
 	import Heading1 from '$lib/components/Typography/Heading1.svelte';
 	import Body from '$lib/components/Typography/Body.svelte';
 	import BulletList from '$lib/components/BulletList.svelte';
-	import Heading3 from '$lib/components/Typography/Heading3.svelte';
 	import BulletPoint from '$lib/components/Typography/BulletPoint.svelte';
 	import BodyLink from '$lib/components/Typography/BodyLink.svelte';
 
@@ -13,7 +11,7 @@
 
 </script>
 
-<BodySmall>Carer Support Payment checker</BodySmall>
+<Body>Carer Support Payment checker</Body>
 <Heading1>Based on your answers, you cannot get Carer Support Payment</Heading1>
 <Body>To get Carer Support Payment you must be 16 or over.</Body>
 <Body>If you’re aged 11 to 15, there’s other <BodyLink link={aged1115Link}>support for you as a young carer.</BodyLink></Body>
