@@ -2,4 +2,4 @@
 	export let bold: boolean = false;
 </script>
 
-<p class="w-[75%] {bold ? "font-bold" : ""}"><slot /></p>
+<p class="{bold ? "font-bold" : ""}"><slot /></p>
