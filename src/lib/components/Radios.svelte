@@ -26,7 +26,7 @@
 					bind:group={selectedOption}
 					value={option}
 				/>
-				<span class="ml-2">{key}</span>
+				<span class="ml-2 text-SG-grey-primary no-underline">{key}</span>
 			</label>
 		{/each}
 	</div>
