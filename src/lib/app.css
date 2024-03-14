@@ -22,7 +22,7 @@ h3 {
 	@apply md:text-SG-h3-lg md:leading-SG-h3-lg;
 }
 p {
-	@apply font-roboto text-SG-grey-primary;
+	@apply font-roboto text-SG-grey-primary w-[100%];
 	@apply text-SG-body-sm leading-SG-body-sm;
 	@apply md:text-SG-body-lg md:leading-SG-body-lg md:w-3/4;
 }
